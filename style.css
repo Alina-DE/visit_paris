@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px 30px 10px 30px;
+    background-color:#e5f4f9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 16px;
+}
+
+img {
+    height: 300px;
+}
+
+/* LISTS */
+
+ul {
+    line-height: initial;
+}
+ul.most-visited {
+    list-style-type:'\1F449';
+
+    /* Another solution - to use "hand" images: */
+    /* list-style-image: url(images/hand.png); */
+}
+ul.top {
+    list-style-type:'\2714';
+}
+li {
+    padding-left: 15px;
+}
+
+/* LINKS */
+a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: green;
+}
+
+/* CLASSES */
+.quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    line-height: initial;
+    margin-left: -30px;
+}
+
+.red {
+    color: #E44511;
+}
+.orangered {
+    color: #E55F5D;
+    font-weight: bold;
+}
+.blue {
+    color: #2F90FD;
+    font-weight: bold;
+}
+.upcase {
+    text-transform: uppercase;
+}
+.yellow {
+    background-color: yellow;
+}
+.fuchsia {
+    background-color: #E87F7F;
+}
+.magenta {
+    color: #E05184;
+    font-weight: bold;
+}
+.wavy {
+    text-decoration: underline wavy #E14C4D ;
+}
+.bolditalic {
+    font-style: italic;
+    font-weight: bold;
+}
